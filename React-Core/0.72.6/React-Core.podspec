@@ -126,21 +126,21 @@ Pod::Spec.new do |s|
     end
   end
 
-  s.dependency "RCT-Folly", folly_version
-  s.dependency "React-cxxreact"
-  s.dependency "React-perflogger"
-  s.dependency "React-jsi"
-  s.dependency "React-jsiexecutor"
-  s.dependency "React-utils"
-  s.dependency "SocketRocket", socket_rocket_version
-  s.dependency "React-runtimescheduler"
-  s.dependency "Yoga"
-  s.dependency "glog"
+  # s.dependency "RCT-Folly", folly_version
+  # s.dependency "React-cxxreact"
+  # s.dependency "React-perflogger"
+  # s.dependency "React-jsi"
+  # s.dependency "React-jsiexecutor"
+  # s.dependency "React-utils"
+  # s.dependency "SocketRocket", socket_rocket_version
+  # s.dependency "React-runtimescheduler"
+  # s.dependency "Yoga"
+  # s.dependency "glog"
 
-  if use_hermes
-    s.dependency 'React-hermes'
-    s.dependency 'hermes-engine'
-  else
-    s.dependency 'React-jsc'
-  end
+  # if use_hermes
+  #   s.dependency 'React-hermes'
+  #   s.dependency 'hermes-engine'
+  # else
+  #   s.dependency 'React-jsc'
+  # end
 end
