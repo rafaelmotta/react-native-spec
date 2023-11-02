@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
                   :sha256 => '6478edfe2f3305127cffe8caf73ea0176c53769f4bf1585be237eb30798c3b8e' }
 
   # Pinning to the same version as React.podspec.
-  spec.platforms = min_supported_versions
+  spec.platforms = { :ios => "14.0" }
   spec.requires_arc = false
 
   spec.module_name = 'boost'

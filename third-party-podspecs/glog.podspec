@@ -49,6 +49,6 @@ Pod::Spec.new do |spec|
   }
 
   # Pinning to the same version as React.podspec.
-  spec.platforms = min_supported_versions
+  spec.platforms = { :ios => "14.0" }
 
 end

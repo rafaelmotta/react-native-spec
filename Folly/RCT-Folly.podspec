@@ -111,5 +111,5 @@ Pod::Spec.new do |spec|
 
   # Folly has issues when compiled with iOS 10 set as deployment target
   # See https://github.com/facebook/folly/issues/1470 for details
-  spec.platforms = min_supported_versions
+  spec.platforms = { :ios => "14.0" }
 end

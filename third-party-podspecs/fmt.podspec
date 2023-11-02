@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig = {
     "CLANG_CXX_LANGUAGE_STANDARD" => "c++20",
   }
-  spec.platforms = min_supported_versions
+  spec.platforms = { :ios => "14.0" }
   spec.libraries = "c++"
   spec.public_header_files = "include/fmt/*.h"
   spec.header_mappings_dir = "include"
